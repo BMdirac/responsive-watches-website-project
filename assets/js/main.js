@@ -38,7 +38,15 @@ function scrollHeader(){
 window.addEventListener('scroll', scrollHeader)
 
 /*=============== TESTIMONIAL SWIPER ===============*/
-
+let testimonialSwiper = new swiper(".testimonial-swiper", {
+    spaceBetween: 30,
+    loop: 'true',
+    
+    navigation: {
+        nextE1: ".swiper-button-next",
+        prevE1: ".swiper-button-prev",
+    },
+})
 
 /*=============== NEW SWIPER ===============*/
 
